@@ -2,7 +2,8 @@
 #
 # Starts openwebrx script
 #
-# Author: iMakhonin [24.11.2016]
+# Author: iMakhonin aka Makigo [24.11.2016]
+# Email: work.makhonon@gmail.com
 #
 
 DAEMON=openwebrx.py
@@ -55,7 +56,7 @@ case "$1" in
         ;;
 
     *)
-        echo "Usage: /etc/init.d/$DAEMON_NAME {start|stop|restart|status}"
+        echo "Usage: service $DAEMON_NAME {start|stop|restart|status}"
         exit 1
         ;;
 
