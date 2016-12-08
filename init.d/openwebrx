@@ -3,7 +3,7 @@
 # Starts openwebrx script
 #
 # Author: iMakhonin aka Makigo [24.11.2016]
-# Email: work.makhonon@gmail.com
+# Email: work.makhonin@gmail.com
 #
 
 DAEMON=openwebrx.py
