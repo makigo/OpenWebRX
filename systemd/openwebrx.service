@@ -1,0 +1,13 @@
+[Unit]
+Description=OpenWebRX main script to 122 mHz
+After=multi-user.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/www/source-sdr/data/sdr-1/
+ExecStart=/www/source-sdr/data/sdr-1/openwebrx.py
+
+[Install]
+WantedBy=multi-user.target
